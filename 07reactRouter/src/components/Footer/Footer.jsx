@@ -10,7 +10,7 @@ export default function Footer() {
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                             <img
-                                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                                src="logo.png"
                                 className="mr-3 h-16"
                                 alt="Logo"
                             />
@@ -71,13 +71,19 @@ export default function Footer() {
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm text-gray-500 sm:text-center">
-                        © 2024                                  
-                        <a href="https://nehajakhmola0803.com/" className="hover:underline">
-                           nehajakhmola
-                        </a>
-                        . All Rights Reserved.
-                    </span>
+                <span className="text-sm text-gray-500 sm:text-center">
+        © 2024
+        <a href="https://nehajakhmola0803.com/" className="hover:underline">
+       
+       
+        </a>
+        . All Rights Reserved.
+        <br />
+        <a href="mailto:youremail@example.com" className="hover:underline">
+         nehajakhmola0803@gmail.com
+         
+        </a>
+      </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <Link to="#" className="text-gray-500 hover:text-gray-900">
                             <svg
